@@ -1,0 +1,84 @@
+ body {
+    padding: 0;
+    width:600px;
+}
+
+header{
+    display:flex;
+    height:70px;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid #C6C6C6 2px;
+    margin-top:0px;
+}
+
+header,
+#user-icon,
+.name-location{
+    padding:10px 10px;
+}
+
+#user-icon{
+    height:40px;
+}
+
+#user-icon,
+.user-photo{
+    border-radius:50%;
+}
+
+.icon-section{
+    display:flex;
+    flex-direction: column;
+    width:320px;
+    padding:5px 15px;
+    margin:10px 15px;
+}
+
+.user-photo{
+    height:30px;
+    float:left;
+    width: 30px;
+}
+.name-location{
+    display: flex;
+    flex-direction: column;
+    border:rgba(12, 0, 0, 0.632) solid 2px;  
+    
+}
+.post-class{
+    width:300px;
+}
+
+.user-info-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.user-info-container h3,
+.user-info-container p,
+.username,
+.likes-part,
+body{
+    margin:0px;
+}
+
+.bottom-icons{
+    display: flex;
+    padding: 10px 0px;
+}
+.bottom-icons img{
+    height:20px;
+    padding: 0px 5px;
+}
+
+.bottom-icons img:hover,
+.bottom-icons img:focus{
+opacity: 0.5;
+}
+.username,
+.likes-part{
+    font-weight: bold;
+    
+}
